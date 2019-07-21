@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "name": "react-next-boilerplate",
+  "scope": "danetheory",
+  "alias": [
+    "danetheory-design-system.now.sh",
+    "design-system.danetheory.com"
+  ],
+  "github": {
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false
+  },
   "builds": [
     {
       "src": "package.json",
@@ -8,9 +17,9 @@
     }
   ],
   "routes": [
-    { 
-      "src": "/favicon.ico", 
-      "dest": "/static/favicon.ico" 
+    {
+      "src": "/favicon.ico",
+      "dest": "/static/favicon.ico"
     },
     {
       "src": "/(.*)$",

@@ -1,6 +1,9 @@
 {
-  "name": "react-next-storyblok-boilerplate",
+  "name": "@danetheory/danetheory-react-next-storyblok-boilerplate",
   "version": "1.0.0",
+  "engines": {
+    "node": ">= 10.x"
+  },
   "description": "Next.js Storyblok Boilerplate",
   "main": "index.js",
   "scripts": {
@@ -10,7 +13,9 @@
     "start": "NODE_ENV=production node server.js"
   },
   "author": "Branden Dane <DaneTheory@gmail.com>",
-  "license": "ISC",
+  "repository": "https://github.com/DaneTheory/danetheory-react-next-storyblok-boilerplate.git",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
