@@ -1,5 +1,5 @@
 {
-  "name": "@danetheory/danetheory-react-next-storyblok-boilerplate",
+  "name": "@danetheory/danetheory-storyblok",
   "version": "1.0.0",
   "engines": {
     "node": ">= 10.x"

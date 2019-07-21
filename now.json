@@ -2,8 +2,9 @@
   "version": 2,
   "scope": "danetheory",
   "alias": [
-    "danetheory-design-system.now.sh",
-    "design-system.danetheory.com"
+    "danetheory-storyblok",
+    "danetheory-storyblok.now.sh",
+    "storyblok.danetheory.com"
   ],
   "github": {
     "enabled": true,
